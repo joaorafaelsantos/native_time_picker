@@ -5,7 +5,10 @@
     | |\  | (_| | |_| |\ V /  __/| | | | | | | | |  __/  __/| | (__|   <  __/ |   
     |_| \_|\__,_|\__|_| \_/ \___||_| |_|_| |_| |_|\___|_|   |_|\___|_|\_\___|_|   
                                                                                 
-# React Native components for Android and iOS Time Pickers
+# React Native component abstraction for Android and iOS Native Time Pickers
 
 # Screenshots
 
+<p>Android</p>
+<img src="./screenshots/android.png" width="300px" /> 
+<p>iOS</p>

@@ -1,9 +1,9 @@
 import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
-    welcome: {
-      fontSize: 20,
+    text: {
+      fontSize: 22,
       textAlign: 'center',
-      margin: 10
+      margin: 20
     }
   });

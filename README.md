@@ -10,5 +10,8 @@
 
 # Demo
 
-<img src="./demo/android.gif" alt="Android Demo" height="500px" /> 
-<img src="./demo/ios.gif" alt="iOS Demo" height="500px" /> 
+
+<p style="float: left;">
+         <img src="./demo/android.gif" alt="Android Demo" height="500px" /> 
+         <img src="./demo/ios.gif" alt="iOS Demo" height="500px" /> 
+</p>

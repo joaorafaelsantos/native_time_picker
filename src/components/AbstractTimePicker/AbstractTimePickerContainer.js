@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Platform } from 'react-native';
 import AbstractTimePicker from './AbstractTimePicker';
 import { AndroidTimePicker } from '../AndroidTimePicker/index';
+import { IOSTimePicker } from '../IOSTimePicker/index';
 
 export default class AbstractTimePickerContainer extends Component {
   constructor(props) {
@@ -28,7 +29,10 @@ export default class AbstractTimePickerContainer extends Component {
     }
     else if (Platform.OS === 'ios') {
       platform = `iOS ${Platform.Version}`;
-      // TODO -> Create an iOS Time Picker with native modal
+      TimePicker = () => <IOSTimePicker
+        hour={this.state.hour}
+        minute={this.state.minute}
+        onTimeChange={this.handleOnTimeChange} />
     }
 
     this.setState({
